@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+<a href="https://hz.nl/secure">
+    <img class="sticky" src="hz-logo.png" alt="HZ-logo" width="170" height="50">
+</a>
+<div class="sidenav">
+    <a href="index.html">Homepagina</a>
+    <a href="profile.html">Profiel</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="faq.html">FAQ</a>
+</div>
+
+<style>
+    caption {
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        padding: 15px;
+    }
+</style>
+
+<body>
+    <table style="margin-left: 200px; width:60%">
+        <caption>Jaar 1</caption>
+        <tr>
+            <!--Table Grey = grey & #A6A6A6
+                Table Blue = glue & lightskyblue
+                Table Green = green & #00B800
+                Table Red = red & #FF5757-->
+            <th rowspan="2" style="background-color: black; color: white;">Blok 1</th>
+            <th style="background-color: blue; color: white;">Opleidings- en beroepsorientatie</th>
+            <th style="background-color: grey; color: white;">Computer Science Basics</th>
+            <th style="text-align: left; background-color: grey; color: white;">Programming Basics</th>
+        </tr>
+        <tr>
+            <td style="background-color: lightskyblue; color: white;">OBO<br>CU75001<br>2,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">CBA<br>CU75002<br>7,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">PBA<br>CU75003<br>5 EC</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="font-weight:bold; text-align: center; background-color: black; color: white;">Blok 2
+            </td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Professional Skills 1</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">HZ Personality 1</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Object-oriented Programming</td>
+        </tr>
+        <tr>
+            <td style="background-color: #A6A6A6; color: white;">PSK1<br>CU750015<br>2,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">HZP1<br>CU20096<br>2,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">OPR<br>CU75004<br>10 EC</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="font-weight:bold; text-align: center; background-color: black; color: white;">Blok 3
+            </td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Professional Skills 2</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Professionele werkplek</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Framework development 1</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Framework project 1</td>
+        </tr>
+        <tr>
+            <td style="background-color: #A6A6A6; color: white;">PSK2<br>CU75006<br>2,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">PWE<br>CU75007<br>2,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">FDE1<br>CU75008<br>5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">FPR1<br>CU75009<br>5 EC</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="font-weight:bold; text-align: center; background-color: black; color: white;">Blok 4
+            </td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Professional Skills 3</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">IT Personality 1</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Framework development 2</td>
+            <td style="font-weight:bold; background-color: grey; color: white;">Framework project 2</td>
+        </tr>
+        <tr>
+            <td style="background-color: #A6A6A6; color: white;">PSK3<br>CU750010<br>2,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">ITP1<br>CU22128<br>2,5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">FDE2<br>CU75012<br>5 EC</td>
+            <td style="background-color: #A6A6A6; color: white;">FPR2<br>CU75011<br>5 EC</td>
+        </tr>
+    </table>
+    <p style="color: blue">Blauw betekent begonnen maar niet afgerond</p>
+    <p style="color: grey">Grijs betekent nog niet begonnen</p>
+    <p style="color: green">Groen betekent gehaald</p>
+    <p style="color: red">Rood betekent niet gehaald</p>
+
+    <h1>TOTALE EC'S: 0 EC!<br>NODIGE EC'S: 45 EC'S!<br>NOG NODIG: 45 EC'S!</h1><br><br><br>
+
+    <h1>Studeer Handleiding!</h1>
+    <a class="linkdb" href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target="_blank">Onderwijs-en examenregelingen</a><br>
+    <a class="linkdb" href="https://learn.hz.nl/my/" target="_blank">Learn</a><br>
+    <a class="linkdb" href="https://teams.microsoft.com/_?lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school//?ctx=teamsGrid" target="_blank">Teams</a><br>
+    <a class="linkdb" href="https://topdesk.hz.nl/tas/public/ssp/52a63378-addd-4b21-b808-571200fd8d0c" target="_blank">SelfService Portal</a><br>
+    <a class="linkdb" href="https://apps.hz.nl/rooster/Default.aspx?menu=110239084080170187101166073161084015193018067002" target="_blank">Rooster</a><br>
+    <a class="linkdb" href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank">Studievoortgang</a>
+
+</body>
+
+</html>
