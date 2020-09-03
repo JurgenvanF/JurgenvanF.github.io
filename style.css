@@ -20,6 +20,26 @@ p {
     margin-left: 200px;
 }
 
+.p-blue {
+    color: blue;
+}
+
+.p-grey {
+    color: grey;
+}
+
+.p-green {
+    color: green;
+}
+
+.p-red {
+    color: red;
+}
+
+.hp-img {
+    margin-left: 200px;
+}
+
 img.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -62,9 +82,15 @@ caption {
     font-size: 40px;
 }
 
+table {
+    width: 60%;
+    margin-left: 200px;
+}
+
 table,
 th,
 td {
+
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -72,6 +98,57 @@ td {
 th,
 td {
     padding: 15px;
+}
+
+.table-blok {
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.table-active {
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+}
+
+.table-active2 {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.table-inactive {
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+}
+
+.table-inactive2 {
+    background-color: #A6A6A6;
+    color: white;
+}
+
+.table-complete {
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+
+.table-complete2 {
+    background-color: #00B800;
+    color: white;
+}
+
+.table-failed {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+.table-failed2 {
+    background-color: #FF5757;
+    color: white;
 }
 
 .accordion {
@@ -98,6 +175,11 @@ td {
     display: none;
     background-color: white;
     overflow: hidden;
+}
+
+.accordion-answer {
+    margin-left: 0px;
+    text-align: center;
 }
 
 .sidenav {
