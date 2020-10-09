@@ -16,6 +16,11 @@ h3 {
     margin-left: 200px;
 }
 
+h4 {
+    font-weight: bold;
+    margin-left: 200px;
+}
+
 p {
     margin-left: 200px;
 }
@@ -38,6 +43,7 @@ p {
 
 .hp-img {
     margin-left: 200px;
+    flex-wrap: wrap;
 }
 
 img.sticky {
@@ -54,6 +60,78 @@ li {
 
 dt {
     font-weight: bold;
+}
+
+.stoplichtgroen {
+    color: limegreen;
+}
+
+.stoplichtoranje {
+    color: orange;
+}
+
+.stoplichtrood {
+    color: red;
+}
+
+.div-motivation {
+  width: 1000px;
+  border: 2px solid black;
+  margin-left: 200px;
+  background-color: #ffebcc;
+}
+
+.div-TED {
+  width: 1000px;
+  border: 2px solid black;
+  margin-left: 200px;
+  margin-top: 20px;
+  background-color: #ffebcc;
+}
+
+.div-performance {
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #ffebcc;
+  }
+
+  .div-anchors {
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #ffebcc;
+  }
+
+  .div-trafficlight {
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #ffebcc;
+  }
+
+  .div-conclusion {
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #ffebcc;
+  }
+
+  .div-resources {
+    width: 1000px;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #ffebcc;
+  }
+
+.text-motivation {
+    margin-left: 10px;
 }
 
 .post-container {
@@ -76,6 +154,11 @@ dt {
 .linkdb {
     margin-left: 200px;
 }
+
+.linkmv {
+    margin-left: 200px;
+}
+
 
 caption {
     font-weight: bold;
@@ -107,46 +190,46 @@ td {
     color: white;
 }
 
-.table-active {
+.table-main-active {
     font-weight: bold;
     background-color: blue;
     color: white;
 }
 
-.table-active2 {
+.table-sub-active {
     background-color: lightskyblue;
     color: white;
 }
 
-.table-inactive {
+.table-main-inactive {
     font-weight: bold;
     background-color: grey;
     color: white;
 }
 
-.table-inactive2 {
+.table-sub-inactive {
     background-color: #A6A6A6;
     color: white;
 }
 
-.table-complete {
+.table-main-passed {
     font-weight: bold;
     background-color: green;
     color: white;
 }
 
-.table-complete2 {
+.table-sub-passed {
     background-color: #00B800;
     color: white;
 }
 
-.table-failed {
+.table-main-failed {
     font-weight: bold;
     background-color: red;
     color: white;
 }
 
-.table-failed2 {
+.table-sub-failed {
     background-color: #FF5757;
     color: white;
 }
@@ -179,10 +262,11 @@ td {
 
 .accordion-answer {
     margin-left: 0px;
-    text-align: center;
+    text-align: center
 }
 
 .sidenav {
+    border: 2px solid black;
     width: 170px;
     position: fixed;
     z-index: 1;

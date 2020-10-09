@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>FAQ</title>
 </head>
-<a href="https://hz.nl/secure">
-    <img class="sticky" src="hz-logo.png" alt="HZ-logo" width="170" height="50">
+<a href="https://hz.nl/secure" target="_blank">
+    <img class="sticky" src="pictures/hz-logo.png" alt="HZ-logo" width="170" height="50">
 </a>
 <div class="sidenav">
     <a href="index.html">Homepagina</a>
     <a href="profile.html">Profiel</a>
+    <a href="motivation.html">Motivatie</a>
     <a href="dashboard.html">Dashboard</a>
     <a href="faq.html">FAQ</a>
 </div>
@@ -25,28 +26,36 @@
 
 <button class="accordion">Hoe kan je een document van je laptop printen op het HZ?</button>
 <div class="panel">
-    <p class="accordion-answer">Er staat op elke verdieping een repro ruimte waarin je kan printen. Deze machine kan je gebruiken met je HZ-pas.<br>Voor grote printopdrachten kan je terecht bij de Canon Reproshop aan de Edisonweg. Stuur je opdracht via e-mail naar Canon.<br>Binnen
+    <p class="accordion-answer">Er staat op elke verdieping een repro ruimte waarin je kan printen. Deze machine kan je
+        gebruiken met je HZ-pas.<br>Voor grote printopdrachten kan je terecht bij de Canon Reproshop aan de Edisonweg.
+        Stuur je opdracht via e-mail naar Canon.<br>Binnen
         24 uur kan je je werk ophalen bij de receptie!</p>
 </div>
 
 <button class="accordion">Hoe kan je een document scannen en naar je laptop sturen op het HZ?</button>
 <div class="panel">
-    <p class="accordion-answer">Er staat op elke verdieping een repro ruimte waarin je kan kopiëren. Deze machine kan je gebruiken met je HZ-pas.</p>
+    <p class="accordion-answer">Er staat op elke verdieping een repro ruimte waarin je kan kopiëren. Deze machine kan je
+        gebruiken met je HZ-pas.</p>
 </div>
 
 <button class="accordion">Wat moet je doen als je je ziek voelt / symptomen van coronavirus vertoont?</button>
 <div class="panel">
-    <p class="accordion-answer">Als je ziek bent, meld dit dan bij je leraar van die dag via Teams of mail. Vertoon je symptomen van het coronavirus?<br>Meld je dan ziek en meld dit bij de opleidingscoördinator!</p>
+    <p class="accordion-answer">Als je ziek bent, meld dit dan bij je leraar van die dag via Teams of mail. Vertoon je
+        symptomen van het coronavirus?<br>Meld je dan ziek en meld dit bij de opleidingscoördinator!</p>
 </div>
 
 <button class="accordion">Hoe kan je een projectruimte reserveren?</button>
 <div class="panel">
-    <p class="accordion-answer">Ga naar MyHZ en klik op SelfService Portal. Daar klik je op nieuwe reserveringen en reserveer project groep ruimten.<br>Daar kan je je dag en tijdvak bepalen, je gegevens invullen en je ruimte reserveren.</p>
+    <p class="accordion-answer">Ga naar MyHZ en klik op SelfService Portal. Daar klik je op nieuwe reserveringen en
+        reserveer project groep ruimten.<br>Daar kan je je dag en tijdvak bepalen, je gegevens invullen en je ruimte
+        reserveren.</p>
 </div>
 
 <button class="accordion">Wat zijn de instructies als je wilt parkeren op het parkeerterein van HZ?</button>
 <div class="panel">
-    <p class="accordion-answer">Je kan niet direct voor de school parkeren maar er is een parkeerterein voor school een paar meter lopen van school vandaan op de Poelendaelesingel 10!<br>Daar kan je op met je HZ-pas. Dan volg je de borden naar de HZ parkeerplaatsen. Die plaatsen
+    <p class="accordion-answer">Je kan niet direct voor de school parkeren maar er is een parkeerterein voor school een
+        paar meter lopen van school vandaan op de Poelendaelesingel 10!<br>Daar kan je op met je HZ-pas. Dan volg je de
+        borden naar de HZ parkeerplaatsen. Die plaatsen
         staan aangegeven met een wit bord met het HZ logo erop!</p>
 </div>
 
@@ -55,7 +64,7 @@
     var i;
 
     for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
+        acc[i].addEventListener("click", function () {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
             if (panel.style.display === "block") {
