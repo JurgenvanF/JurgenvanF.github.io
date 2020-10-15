@@ -3,11 +3,15 @@ body {
     background: #FFE0AD;
 }
 
-h1 {
+.hz-image-link {
+    align-self: left;
+}
+
+.h1 {
     margin-left: 200px;
 }
 
-h2 {
+.h2 {
     margin-left: 200px;
 }
 
@@ -47,6 +51,7 @@ p {
 }
 
 img.sticky {
+    text-align: left;
     position: -webkit-sticky;
     position: sticky;
     top: 10px;
@@ -75,18 +80,18 @@ dt {
 }
 
 .div-motivation {
-  width: 1000px;
-  border: 2px solid black;
-  margin-left: 200px;
-  background-color: #ffebcc;
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 200px;
+    background-color: #ffebcc;
 }
 
 .div-TED {
-  width: 1000px;
-  border: 2px solid black;
-  margin-left: 200px;
-  margin-top: 20px;
-  background-color: #ffebcc;
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #ffebcc;
 }
 
 .div-performance {
@@ -95,40 +100,40 @@ dt {
     margin-left: 200px;
     margin-top: 20px;
     background-color: #ffebcc;
-  }
+}
 
-  .div-anchors {
+.div-anchors {
     width: 1000px;
     border: 2px solid black;
     margin-left: 200px;
     margin-top: 20px;
     background-color: #ffebcc;
-  }
+}
 
-  .div-trafficlight {
+.div-trafficlight {
     width: 1000px;
     border: 2px solid black;
     margin-left: 200px;
     margin-top: 20px;
     background-color: #ffebcc;
-  }
+}
 
-  .div-conclusion {
+.div-conclusion {
     width: 1000px;
     border: 2px solid black;
     margin-left: 200px;
     margin-top: 20px;
     background-color: #ffebcc;
-  }
+}
 
-  .div-resources {
+.div-resources {
     width: 1000px;
     border: 2px solid black;
     padding-bottom: 20px;
     margin-left: 200px;
     margin-top: 20px;
     background-color: #ffebcc;
-  }
+}
 
 .text-motivation {
     margin-left: 10px;
@@ -159,27 +164,25 @@ dt {
     margin-left: 200px;
 }
 
-
 caption {
     font-weight: bold;
     font-size: 40px;
 }
 
-table {
+.dbtable {
     width: 60%;
     margin-left: 200px;
+    background-color: black;
 }
 
-table,
-th,
-td {
-
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-th,
-td {
+.table-main-active,
+.table-sub-active,
+.table-main-inactive,
+.table-sub-inactive,
+.table-main-passed,
+.table-sub-passed,
+.table-main-failed,
+.table-sub-failed {
     padding: 15px;
 }
 
@@ -287,6 +290,41 @@ td {
 
 .sidenav a:hover {
     color: #535353;
+}
+
+.sidenav a:active {
+    color: #535353;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    background: #FFE0AD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.result {
+    text-align: center;
+}
+
+.row {
+    margin-top: 80px;
+    display: flex;
+}
+
+.column {
+    margin-left: 50px;
+    margin-right: 50px;
+    flex: 3.33%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.a {
+    text-align: left;
 }
 
 .main {

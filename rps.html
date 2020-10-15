@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steen Papier Schaar</title>
+    <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<a class="HZ-image-link" href="https://hz.nl/secure" target="_blank">
+    <img class="sticky" src="pictures/hz-logo.png" alt="HZ-logo" width="170" height="50">
+</a>
+<div class="sidenav">
+    <a href="index.html">Homepagina</a>
+    <a href="profile.html">Profiel</a>
+    <a href="motivation.html">Motivatie</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="faq.html">FAQ</a>
+    <a href="rps.html">Steen papier schaar</a>
+</div>
+
+<body>
+    <div class="body">
+        <h1>Steen, Papier, Schaar!</h1>
+        <h2>Maak een keuze!</h2>
+
+        <div class="row">
+            <div class="column">
+                <img id="rock" src="./pictures/rock.png" alt="Rock" style="width: 100%;" />
+            </div>
+            <div class="column">
+                <img id="paper" src="./pictures/paper.png" alt="Paper" style="width: 100%;" />
+            </div>
+            <div class="column">
+                <img id="scissors" src="./pictures/scissors.png" alt="Scissors" style="width: 100%;" />
+            </div>
+        </div>
+
+        <table id="rps-table">
+            <thead>
+                <tr id="tr">
+                    <th id="yourText"></th>
+                    <th id="compText"></th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr id="trChoice">
+                    <td id="tdYourChoice"></td>
+                    <td id="tdCompChoice"></td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <h1 id="result"></h1>
+        <script src="./assets/app.js"></script>
+    </div>
+</body>
+
+
+</html>
